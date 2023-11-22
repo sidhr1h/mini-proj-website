@@ -11,6 +11,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>project</title>
 </head>
 
@@ -18,20 +19,18 @@
 
 <div class="p-3 mb-2 bg-black text-white">
 
-  <ul class="nav justify-content-middle ">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#"></a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-    </li>
-  </ul>
+  <div class="container">
+    <nav class="nav">
+      <div id="home">Home</div>
+      <div id="prog"><a id="program" href="#programhead">Programs</a></div>
+      <div id="abt">About</div>
+      <div id="cnt">Contact Us</div>
+      <div id="serve">Our Services</div>
+    </nav>
+
+
+
+  </div>
 
 
 
@@ -46,7 +45,7 @@
   <p class="lead mt-4 mb-3" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Felis eget velit aliquet sagittis id consectetur purus ut faucibus. Euismod lacinia at quis risus sed. A iaculis at erat pellentesque adipiscing commodo elit at.</p>
 
 
-  <h2 class="text-center mt-2 mb-4">OUR ELITE PROGRAMS </h2>
+  <h2 id="programhead" class="text-center mt-2 mb-4">OUR ELITE PROGRAMS </h2>
 
  <!-- <p>first course</p>
   <button type="button" class="btn btn-dark">enroll now</button>
@@ -153,12 +152,13 @@
   <br><br><br>
 </div>
 
+
+
+
+
+<div style="background-color: rgba(36, 35, 39, 0.531);" >
 <h2>Become Member</h2>
-<br><br>
-
-
-
-<div class="right">
+<br>
 <form>
   <div class="row mb-3">
     <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
@@ -209,23 +209,15 @@
 </form>
 </div>
 
-
-
-
-
-
   <br>
   <br>
   <div class = "text-center" >
     <button type="button" class="btn btn-secondary btn-lg">contact us</button>
 
-
-  <p class= "text-center mt-4 mb-2">copyright 2023 </p>
-
-
-
-
-
+  <footer class="foot">
+    <div class="cont">&copy; 2023 All Rights reserved.</div>
+    <div class="terms">Privacy Policy | Terms & Conditions</div>
+  </footer>
 
 </body>
 </div>
